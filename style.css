@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=Fredericka+the+Great&family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+
+/* font-family: 'Corben', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Zen Old Mincho', serif; */
+.vertical-space {
+    min-height: 1.25rem;
+}
+
+/* STYLING THE WELCOME/TITLE AREA */
+.welcome {
+    height: 250px;
+    background-image: url(pexels-adonyi-gábor-1558916.jpg);
+    display: flex; 
+    flex-direction: column;
+    animation: bg-animation 180s infinite alternate;
+}
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+.title {
+    font-family: 'Fredericka the Great', Arial, Helvetica, sans-serif;
+    color:rgb(241,133,61); 
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+    padding: 75px;
+    background-image: radial-gradient( rgba(41, 40, 40, 0.95),rgba(41, 40, 40, 0.001 ));
+}
+
+.photo-credit {
+color: rgb(104, 96, 96);
+text-align: end;
+}
+
+/* STYLING THE ABOUT SECTION */
+.artist-image{
+    max-width: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLING THE GALLERY SECTION */
+
+.gallery-image {
+    max-height: 400px;
+}
